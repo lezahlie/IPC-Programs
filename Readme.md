@@ -3,9 +3,9 @@ Author: Leslie Horace
 Purpose: C programs utilizing interprocess communication
 Version: 1.0
 ```
-## IPC Programs
+# IPC Programs
 
-# Included files
+## Included files
 - war_pipes.c
     - Implementation of pipes and processes
 - war_sockets.c
@@ -13,22 +13,22 @@ Version: 1.0
 - Makefile 
     - Compiling program(s) and cleaning out files
 
-# Compiling the program(s)
+## Compiling the program(s)
 > make all
 
 > make war_pipes
 
 > make war_sockets
 
-# Cleaning compiled files
+## Cleaning compiled files
 > make clean
 
-# Running the program(s)
+## Running the program(s)
 usage: <outfile> <# rounds>
 
 *# rounds argument is the number of rounds to play war*
 
-# About the program(s)
+## About the program(s)
 1. war_pipes.c
     - Forks two child processes to play rounds of war
     - Parent process is the game keeper and makes all requests
