@@ -24,7 +24,7 @@ Version: 1.0
 > make clean
 
 ## Running the program(s)
-usage: <outfile> <# rounds>
+usage: < outfile > <# rounds>
 
 *# rounds argument is the number of rounds to play war*
 
